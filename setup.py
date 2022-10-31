@@ -15,13 +15,13 @@ from setuptools import setup
 
 
 # Package meta-data.
-NAME = 'django-inlinecss'
+NAME = 'django-inlinecss-status-page'
 SRC_DIR = 'django_inlinecss'
 DESCRIPTION = 'A Django app useful for inlining CSS (primarily for e-mails)'
 URL = 'https://github.com/roverdotcom/django-inlinecss'
 EMAIL = 'philip@rover.com'
 AUTHOR = 'Philip Kimmey'
-REQUIRES_PYTHON = '>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <3.7'
+REQUIRES_PYTHON = '>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <3.11'
 VERSION = None
 
 # What packages are required for this module to be executed?
@@ -140,6 +140,10 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
         'Topic :: Communications :: Email',
         'Topic :: Text Processing :: Markup :: HTML',
     ],
